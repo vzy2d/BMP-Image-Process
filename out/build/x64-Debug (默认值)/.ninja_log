@@ -1,0 +1,9 @@
+# ninja log v5
+0	767	625058360	CMakeFiles/BmpImgProcessing.dir/BmpImgProcessing.cpp.obj	7baf185e5e21935
+0	735	625069215	CMakeFiles/BmpImgProcessing.dir/main.cpp.obj	d54c3e61567a7e00
+1058	1408	625072989	BmpImgProcessing.exe	59dfee48d8f38481
+1	1057	625072989	CMakeFiles/BmpImgProcessing.dir/BmpFile.cpp.obj	24b7541958cbbe07
+0	1041	625073484	CMakeFiles/BmpImgProcessing.dir/BmpFile.cpp.obj	24b7541958cbbe07
+1042	1309	625073484	BmpImgProcessing.exe	59dfee48d8f38481
+0	1044	625074253	CMakeFiles/BmpImgProcessing.dir/BmpFile.cpp.obj	24b7541958cbbe07
+1046	1310	625074254	BmpImgProcessing.exe	59dfee48d8f38481
