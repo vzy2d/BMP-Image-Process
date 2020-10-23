@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/zheng/source/repos/BmpImgProcessing
+# Install script for directory: C:/Users/zheng/Desktop/BMP-Image-Process
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/zheng/source/repos/BmpImgProcessing/out/install/x64-Debug (默认值)")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/zheng/Desktop/BMP-Image-Process/out/install/x64-Debug (默认值)")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/zheng/source/repos/BmpImgProcessing/out/build/x64-Debug (默认值)/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/zheng/Desktop/BMP-Image-Process/out/build/x64-Debug (默认值)/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

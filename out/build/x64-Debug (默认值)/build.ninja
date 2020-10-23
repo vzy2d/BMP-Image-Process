@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: BmpImgProcessing
+# Project: BMP-Image-Process
 # Configurations: Debug
 # =============================================================================
 
@@ -34,66 +34,66 @@ CONFIGURATION = Debug
 
 include rules.ninja
 
-# =============================================================================
-# Object build statements for EXECUTABLE target BmpImgProcessing
-
-
-#############################################
-# Order-only phony target for BmpImgProcessing
-
-build cmake_object_order_depends_target_BmpImgProcessing_Debug: phony || CMakeFiles\BmpImgProcessing.dir
-
-build CMakeFiles\BmpImgProcessing.dir\main.cpp.obj: CXX_COMPILER__BmpImgProcessing_Debug ..\..\..\main.cpp || cmake_object_order_depends_target_BmpImgProcessing_Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = CMakeFiles\BmpImgProcessing.dir
-  OBJECT_FILE_DIR = CMakeFiles\BmpImgProcessing.dir
-  TARGET_COMPILE_PDB = CMakeFiles\BmpImgProcessing.dir\
-  TARGET_PDB = BmpImgProcessing.pdb
-
-build CMakeFiles\BmpImgProcessing.dir\BmpFile.cpp.obj: CXX_COMPILER__BmpImgProcessing_Debug ..\..\..\BmpFile.cpp || cmake_object_order_depends_target_BmpImgProcessing_Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = CMakeFiles\BmpImgProcessing.dir
-  OBJECT_FILE_DIR = CMakeFiles\BmpImgProcessing.dir
-  TARGET_COMPILE_PDB = CMakeFiles\BmpImgProcessing.dir\
-  TARGET_PDB = BmpImgProcessing.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target BmpImgProcessing
-
-
-#############################################
-# Link the executable BmpImgProcessing.exe
-
-build BmpImgProcessing.exe: CXX_EXECUTABLE_LINKER__BmpImgProcessing_Debug CMakeFiles\BmpImgProcessing.dir\main.cpp.obj CMakeFiles\BmpImgProcessing.dir\BmpFile.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\BmpImgProcessing.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\BmpImgProcessing.dir\
-  TARGET_FILE = BmpImgProcessing.exe
-  TARGET_IMPLIB = BmpImgProcessing.lib
-  TARGET_PDB = BmpImgProcessing.pdb
-
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\zheng\source\repos\BmpImgProcessing\out\build\x64-Debug (默认值)" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\zheng\Desktop\BMP-Image-Process\out\build\x64-Debug (默认值)" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles\edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BMP-Image-Process
+
+
+#############################################
+# Order-only phony target for BMP-Image-Process
+
+build cmake_object_order_depends_target_BMP-Image-Process_Debug: phony || CMakeFiles\BMP-Image-Process.dir
+
+build CMakeFiles\BMP-Image-Process.dir\main.cpp.obj: CXX_COMPILER__BMP-Image-Process_Debug ..\..\..\main.cpp || cmake_object_order_depends_target_BMP-Image-Process_Debug
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = CMakeFiles\BMP-Image-Process.dir
+  OBJECT_FILE_DIR = CMakeFiles\BMP-Image-Process.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BMP-Image-Process.dir\
+  TARGET_PDB = BMP-Image-Process.pdb
+
+build CMakeFiles\BMP-Image-Process.dir\BmpFile.cpp.obj: CXX_COMPILER__BMP-Image-Process_Debug ..\..\..\BmpFile.cpp || cmake_object_order_depends_target_BMP-Image-Process_Debug
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = CMakeFiles\BMP-Image-Process.dir
+  OBJECT_FILE_DIR = CMakeFiles\BMP-Image-Process.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BMP-Image-Process.dir\
+  TARGET_PDB = BMP-Image-Process.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BMP-Image-Process
+
+
+#############################################
+# Link the executable BMP-Image-Process.exe
+
+build BMP-Image-Process.exe: CXX_EXECUTABLE_LINKER__BMP-Image-Process_Debug CMakeFiles\BMP-Image-Process.dir\main.cpp.obj CMakeFiles\BMP-Image-Process.dir\BmpFile.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\BMP-Image-Process.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\BMP-Image-Process.dir\
+  TARGET_FILE = BMP-Image-Process.exe
+  TARGET_IMPLIB = BMP-Image-Process.lib
+  TARGET_PDB = BMP-Image-Process.pdb
 
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\zheng\source\repos\BmpImgProcessing\out\build\x64-Debug (默认值)" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\zheng\source\repos\BmpImgProcessing -B"C:\Users\zheng\source\repos\BmpImgProcessing\out\build\x64-Debug (默认值)""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\zheng\Desktop\BMP-Image-Process\out\build\x64-Debug (默认值)" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\zheng\Desktop\BMP-Image-Process -B"C:\Users\zheng\Desktop\BMP-Image-Process\out\build\x64-Debug (默认值)""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build BmpImgProcessing: phony BmpImgProcessing.exe
+build BMP-Image-Process: phony BMP-Image-Process.exe
 
 # =============================================================================
 # Folder targets.
@@ -111,9 +111,9 @@ build BmpImgProcessing: phony BmpImgProcessing.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/zheng/source/repos/BmpImgProcessing/out/build/x64-Debug (默认值)
+# Folder: C:/Users/zheng/Desktop/BMP-Image-Process/out/build/x64-Debug (默认值)
 
-build all: phony BmpImgProcessing.exe
+build all: phony BMP-Image-Process.exe
 
 # =============================================================================
 # Built-in targets
