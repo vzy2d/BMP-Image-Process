@@ -1,9 +1,0 @@
-# ninja log v5
-0	990	625118092	CMakeFiles/BMP-Image-Process.dir/main.cpp.obj	ff98cc7da5b9d1e6
-1	1191	625118351	CMakeFiles/BMP-Image-Process.dir/BmpFile.cpp.obj	547d267f2b96e37
-1193	1880	625118352	BMP-Image-Process.exe	f2bcc5392580890
-0	16	0	clean	9992afb1f91dc381
-0	16	0	clean	9992afb1f91dc381
-9	1206	625118485	CMakeFiles/BMP-Image-Process.dir/BmpFile.cpp.obj	547d267f2b96e37
-1	1217	625118485	CMakeFiles/BMP-Image-Process.dir/main.cpp.obj	ff98cc7da5b9d1e6
-1232	1561	625118485	BMP-Image-Process.exe	f2bcc5392580890
